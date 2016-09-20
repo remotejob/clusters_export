@@ -1,0 +1,20 @@
+{
+  "kind": "Service",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "githubnginxhttp"
+  },
+  "spec": {
+    "ports": [
+      {
+        "protocol": "TCP",
+        "port": 80,
+	"targetPort": 80
+      }
+    ],
+    "selector": {
+      "name": "githubnginx"
+    },
+    "type": "LoadBalancer"	
+  }
+}

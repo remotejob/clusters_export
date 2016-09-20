@@ -1,0 +1,49 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: githubnginx
+spec:
+  template:
+    metadata:
+      labels:
+        run: githubnginx
+    spec:
+      volumes:
+      - name: www-data
+        emptyDir: {}
+      containers:
+      - name: nginx
+        image: gcr.io/jntlserv0/gitsync-nginx:0.5
+        volumeMounts:
+        - mountPath: /git
+          name: www-data
+        ports:
+        - containerPort: 80
+      - name: git-sync
+        image: gcr.io/jntlserv0/git-sync:0.5
+        env:
+        - name: GIT_SYNC_REPO
+          value: "https://github.com/remotejob/angular2-webpack-starter.git"
+        - name: GIT_SYNC_DEST
+          value: "html"
+        - name: GIT_SYNC_WAIT
+          value: "90"
+        volumeMounts:
+        - mountPath: /git 
+          name: www-data
+      - name: goreverseproxy
+        image:  gcr.io/jntlserv0/docker-goreverseproxy:1.5
+        env:
+        - name: SECRET_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: mysecret
+              key: username
+        - name: SECRET_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysecret
+              key: password
+        ports:
+        - containerPort: 8080
+
