@@ -1,5 +1,17 @@
+
+
+
+
 # clusters_export
-Export your activity on Cloud/Clusters 
+Export your activity on Cloud/Clusters
+
+## Working DINAMIC links
+
+* [http://104.199.28.6/job/fi_FI/blogi](http://104.199.28.6/job/fi_FI/blogi) JSON service All Items
+* [http://104.199.28.6/job/fi_FI/blogi/alajarvi-tyopaikat-helsinki-tyopaikat-avoimet-tyopaikat-led-terassivalosarja-malli-mikkeli-helsingin.html](http://104.199.28.6/job/fi_FI/blogi/alajarvi-tyopaikat-helsinki-tyopaikat-avoimet-tyopaikat-led-terassivalosarja-malli-mikkeli-helsingin.html)
+* [http://104.199.28.6/sitemap.xml](http://104.199.28.6/job/fi_FI/blogi) XML service
+* [angular2 demo application](http://104.199.28.6)  !!Only blog page real working page
+
  
 ## Project intend demonstrate how move yours business on Clusters
 Select available ready made Clusters
