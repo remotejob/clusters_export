@@ -11,4 +11,4 @@ line ---> so static files will be located in not standard location
 
 to create and export only "make" command needed
 
-DON'T forget modigy Make fiel
+DON'T forget modify Make fiel
