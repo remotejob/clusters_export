@@ -3,7 +3,7 @@
 
 
 # clusters_export
-Export your activity on Cloud/Clusters
+Export your activity on Cloud/Clusters/Docker based microservice.
 
 ## Working DINAMIC links
 
@@ -53,6 +53,6 @@ Select available ready made Clusters
     * Documentation in docker-goreverseproxy [Link](https://github.com/remotejob/clusters_export/tree/master/docker-goreverseproxy) .
 
 * Docker-angular 2 application
-    * It put all previous services all together.
+    * It put all previous services together.
     * Create real Angualar2 demo  
     * Documentation in docker-angular2 [Link](https://github.com/remotejob/clusters_export/tree/master/docker-kaukotyo).
