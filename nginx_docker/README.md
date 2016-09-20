@@ -10,4 +10,4 @@ root   /git/html/dist;
 
 * to create and export only "make" command needed
 
-* DON'T forget modify Make fiel
+* DON'T forget modify Make file.
