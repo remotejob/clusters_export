@@ -22,19 +22,19 @@ Select available ready made Clusters
 
 ## First variant Classic Nginx <----> Restful service
 
-### Database Mongodb
+* Database Mongodb
     * Can be any other DB ( Mysql for example ...)
-    * Documentation in mongodb_container  [Link](https://github.com/remotejob/clusters_export/tree/master/mongodb_container).
-
-### Nginx reverse proxy
+    * Documentation in mongodb_container [Link](https://github.com/remotejob/clusters_export/tree/master/mongodb_container).
+    
+* Nginx reverse proxy
     * Need some modification 
     * Documentation in nginx_docker [Link](https://github.com/remotejob/clusters_export/tree/master/nginx_docker).
-### Git-Sync !!! mostly interesting part of project!!!
+* Git-Sync !!! mostly interesting part of project!!!
     * Simple golang program but it show very unusual approach to container file system.
-    * Documentation in docker-gitsync
-### Restful Service
+    * Documentation in docker-gitsync [Link](https://github.com/remotejob/clusters_export/tree/master/docker-gitsync).
+* Restful Service
     * Standart GOLANG service a part of JSON creation it's create XML service as well.
     * Smallest docker image used (don't forget GOLANG best for docker).
     * Documentation in docker-goreverseproxy[Link](https://github.com/remotejob/clusters_export/tree/master/docker-goreverseproxy) .
 
-###                    
+*  Docker-angular 2 application
