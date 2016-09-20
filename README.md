@@ -8,7 +8,7 @@ Select available ready made Clusters
 2. Google Container Cluster
 3. Digital Ocean
    * AWS mostly expensive and use proprietary application for orchestration docker. 
-   * Google expensive by use open source code for orchestration docker.
+   * Google expensive by use open source code for orchestration docker (kubernetes).
    * Digital Ocean not include completely ready made solution.
 
 ## Was selected Google Container Cluster
@@ -35,6 +35,9 @@ Select available ready made Clusters
 * Restful Service
     * Standart GOLANG service a part of JSON creation it's create XML service as well.
     * Smallest docker image used (don't forget GOLANG best for docker).
-    * Documentation in docker-goreverseproxy[Link](https://github.com/remotejob/clusters_export/tree/master/docker-goreverseproxy) .
+    * Documentation in docker-goreverseproxy [Link](https://github.com/remotejob/clusters_export/tree/master/docker-goreverseproxy) .
 
-*  Docker-angular 2 application
+* Docker-angular 2 application
+    * It put all previous servises all together.
+    * Create real Angualar2 demo  
+    * Documentation in docker-angular2 [Link](https://github.com/remotejob/clusters_export/tree/master/docker-angular2) .
