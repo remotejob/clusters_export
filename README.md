@@ -10,7 +10,7 @@ Export your activity on Cloud/Clusters
 * [http://104.199.28.6/job/fi_FI/blogi](http://104.199.28.6/job/fi_FI/blogi) JSON service All Items
 * [http://104.199.28.6/job/fi_FI/blogi/alajarvi-tyopaikat-helsinki-tyopaikat-avoimet-tyopaikat-led-terassivalosarja-malli-mikkeli-helsingin.html](http://104.199.28.6/job/fi_FI/blogi/alajarvi-tyopaikat-helsinki-tyopaikat-avoimet-tyopaikat-led-terassivalosarja-malli-mikkeli-helsingin.html)
 * [http://104.199.28.6/sitemap.xml](http://104.199.28.6/sitemap.xml) XML service
-* [angular2 demo application](http://104.199.28.6)  !! Only blog page real working page
+* [angular2 demo application](http://104.199.28.6)  !! Only /blog page USE remote JSON service
 
 * Project demonstrate latest capacity JavaScript more details
 * [Angular2 Webpack Starter](https://github.com/remotejob/angular2-webpack-starter)
