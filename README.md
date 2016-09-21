@@ -55,4 +55,4 @@ Select available ready made Clusters
 * Docker-angular 2 application
     * It put all previous services together.
     * Create real Angualar2 demo  
-    * Documentation in docker-angular2 [Link](https://github.com/remotejob/clusters_export/tree/master/docker-kaukotyo).
+    * Documentation in docker-kaukotyo [Link](https://github.com/remotejob/clusters_export/tree/master/docker-kaukotyo).
